@@ -1,25 +1,27 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `*───────[ BIODATA OWNER ]───────*
-*💌 Nama* : Sad-Bot
-*✉️ Nama RL* : Fahri
+*💌 Nama* : Rel-Bot
+*✉️ Nama RL* : Farel
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 10 Juni 2007
+*⏰ Tanggal lahir* : 26 April 2007
 *🎨 Umur* : 15
-*🧮 Kelas* : 9
-*🧩 Hobby* : Nonton Hanime, Chatting, Recode script bot
-*💬 Sifat* : Idiot, Tidak Ramah, Kanjut, Prik, Pedofil
-*🗺️ Tinggal* : Indo, Riau, Indragiri Hulu, Air Molek
-*❤️ Suka* : warnah kuning & biru, Hanime, waifu, loli, trap, furry, kucing
-*💔 Benci* : autis, anak epep, seleb
+*🧮 Kelas* : 8
+*🧩 Hobby* : Coli
+*💬 Sifat* : Baik, ramah, Ganteng, Tapi gay
+*🗺️ Tinggal* : Indo, Sulawesi tengah, kabupaten buol desa pajeko
+*❤️ Suka* : seme yang tahan lama
+*💔 Benci* : autis
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @bot_whangsaf
-*🇫  Facebook* : Adison Fahri
-*🏮 Chanel Youtube* : Papah-Chan
-*🐈 Github:* FahriAdison
+*📷 instagran* : ----
+*🇫  Facebook* : Farel menolak gans/Farel Rel
+*🏮 Chanel Youtube* : ----
+*🐈 Github:* ----
 
+*───────[ CATATAN ]───────*
+Nyari seme ada gak?
 `
 conn.sendHydrated(m.chat, teksbio, wm, ppown, "wa.me/" + nomorown, "💬 ᴄʜᴀᴛs", null,null, [["ᴅᴏɴᴀsɪ", '.donasi'], [null, null],[null,null]], m)
 }
